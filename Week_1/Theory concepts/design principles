@@ -1,0 +1,20 @@
+/*Responsive design ensures websites look good on all screen sizes.
+
+Key techniques:
+
+* Fluid Layouts: Use % or vw/vh instead of fixed pixels.
+
+* Media Queries:  */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/*
+* Flexible Images: img { max-width: 100%; height: auto; }
+
+* Mobile-first approach: Design for small screens first, then scale up.
+
+*/

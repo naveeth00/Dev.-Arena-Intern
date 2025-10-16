@@ -1,0 +1,26 @@
+Positioning types:
+
+* static – default, normal flow
+
+* relative – positioned relative to its normal position
+
+* absolute – positioned relative to nearest positioned ancestor
+
+* fixed – stays in place even when scrolling
+
+* sticky – toggles between relative and fixed based on scroll
+
+Layout systems:
+
+* Flexbox: 1D layout (rows or columns)
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+* Grid: 2D layout (rows & columns)
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;

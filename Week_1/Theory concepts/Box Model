@@ -1,0 +1,29 @@
+Every HTML element is a box made up of:
+
+|-------------------------|
+|       Margin            |
+|  |-------------------|  |
+|  |     Border        |  |
+|  |  |-------------|  |  |
+|  |  |  Padding    |  |  |
+|  |  |  Content    |  |  |
+|  |  |-------------|  |  |
+|  |-------------------|  |
+|-------------------------|
+
+
+* Content: The actual text or image.
+
+* Padding: Space between content and border.
+
+* Border: The line around the padding.
+
+* Margin: Space outside the border (separates elements).
+
+Example:
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+}

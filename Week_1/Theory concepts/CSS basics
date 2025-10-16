@@ -1,0 +1,22 @@
+/*CSS (Cascading Style Sheets) controls how
+ HTML elements are displayed.
+*/
+
+
+p {
+  color: blue;      /* property: value */
+  font-size: 16px;
+}
+
+
+/*Selectors – choose which HTML elements to style:
+
+* Element selector → p { }
+
+* Class selector → .className { }
+
+* ID selector → #idName { }
+
+* Attribute selector → [type="text"] { }
+
+* Universal selector → * { }  */

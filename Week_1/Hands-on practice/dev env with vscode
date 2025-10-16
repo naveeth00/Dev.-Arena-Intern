@@ -1,0 +1,17 @@
+Steps:
+
+1. Install VS Code
+ → Free, lightweight, and perfect for web dev.
+
+2. Install Extensions:
+
+  🟦 Live Server – auto-reloads page when you save changes.
+
+  🎨 Prettier – auto-formats code.
+
+  🌈 HTML CSS Support & IntelliSense for autocomplete.
+
+3. Create your project folder:
+
+    Example: web-practice/
+    Inside it → index.html, style.css, script.js.

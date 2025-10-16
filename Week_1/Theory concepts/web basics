@@ -1,0 +1,24 @@
+Accessibility (a11y) ensures websites are usable by 
+everyone, including people with disabilities.
+
+Principles (POUR):
+
+* Perceivable – content is visible/audible
+
+* Operable – all functionality via keyboard
+
+* Understandable – clear navigation, text
+
+* Robust – works across assistive tech
+
+Best practices:
+
+* Use semantic HTML (<header>, <nav>, <main>)
+
+* Add alt text for images: <img src="img.jpg"   alt="Description">
+
+* Use labels for form inputs
+
+* Maintain color contrast
+
+* Enable keyboard navigation (e.g., using tabindex)

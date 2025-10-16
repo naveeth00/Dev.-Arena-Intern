@@ -1,0 +1,38 @@
+HTML5 provides structure to a webpage using semantic elements that describe 
+their meaning both to the browser and developers.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <header>Header content</header>
+    <nav>Navigation links</nav>
+    <main>
+      <article>Article content</article>
+      <section>Section content</section>
+      <aside>Sidebar info</aside>
+    </main>
+    <footer>Footer content</footer>
+  </body>
+</html>
+
+
+Semantic elements (introduced in HTML5):
+
+* <header> – defines a header for a document or section
+
+* <nav> – navigation links
+
+* <main> – main content area
+
+* <section> – thematic grouping of content
+
+* <article> – self-contained content (like a blog post)
+
+* <aside> – side content like ads or related links
+
+* <footer> – footer section
+
+Advantage: Improves SEO, accessibility, and readability of code.
