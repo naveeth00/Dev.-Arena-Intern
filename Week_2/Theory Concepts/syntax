@@ -1,0 +1,37 @@
+✅ Basic Syntax Rules:
+
+* Case-sensitive (age ≠ Age)
+
+* Statements end with ; (optional but recommended)
+
+* Code is grouped using { }
+
+✅ Data Types
+
+* Primitive Types (immutable)
+
+* string → "Hello"
+
+* number → 10, 10.5
+
+* boolean → true / false
+
+* null → intentional empty value
+
+* undefined → value not assigned
+
+* bigint → large integers
+
+* symbol → unique value identifiers
+
+Non-Primitive
+
+* object → arrays, functions, collections
+
+
+js.
+
+let name = "Naveeth";
+let age = 21;
+let online = true;
+let skills = ["HTML", "CSS"];

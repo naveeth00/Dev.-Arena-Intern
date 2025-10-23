@@ -1,0 +1,28 @@
+/* 
+✅ Arrays
+
+Used to store list values:
+*/
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]); // Apple
+
+// Useful Methods
+
+fruits.push("Orange"); // add
+fruits.pop(); // remove last
+fruits.shift(); // remove first
+
+
+// ✅ Objects
+
+// Store data as key-value pairs:
+
+let user = {
+  name: "Naveeth",
+  age: 21,
+  skills: ["Java", "JS"]
+};
+
+console.log(user.name);

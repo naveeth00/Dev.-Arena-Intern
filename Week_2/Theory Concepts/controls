@@ -1,0 +1,54 @@
+/* ✅ Variables
+
+* var → old, function-scoped (avoid using)
+
+* let → block-scoped
+
+* const → constant block-scoped
+
+*/
+
+js 
+
+let x = 10;
+const pi = 3.14;
+
+
+// Functions
+
+function greet() {
+  console.log("Hello!");
+}
+greet();
+
+
+// Arow Function
+
+const add = (a, b) => a + b;
+
+/* Control Structures
+
+👉 Conditional
+
+*/
+
+if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+
+// 👉 Switch
+
+switch(day){
+  case 1: console.log("Monday");
+}
+
+// 👉 Loops
+
+for(let i = 0; i < 5; i++){
+  console.log(i);
+}
+
+while(condition){  }
+

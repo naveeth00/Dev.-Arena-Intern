@@ -1,0 +1,43 @@
+/*
+Events trigger actions in the browser.
+
+Common Events:
+
+* click
+
+* submit
+
+* change
+
+* mouseover
+
+* keydown
+
+*/
+//✅ Example
+
+<button id="btn">Click Me</button>
+
+
+<script>
+
+document.getElementById("btn").addEventListener("click", () => {
+  alert("Button Clicked!");
+});
+
+
+// Form Submit Event
+
+form.addEventListener("submit", function(e){
+  e.preventDefault(); // prevents page refresh
+});
+
+
+// Input Change
+
+input.addEventListener("change", ()=>{
+  console.log("value changed");
+});
+
+
+</script>

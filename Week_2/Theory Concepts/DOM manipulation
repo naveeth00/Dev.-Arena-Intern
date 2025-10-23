@@ -1,0 +1,21 @@
+//DOM (Document Object Model) allows JavaScript to 
+// interact with HTML.
+
+//✅ Selecting Elements
+
+document.getElementById("title");
+document.querySelector(".class");
+document.querySelectorAll("p");
+
+//✅ Modifying Text/HTML
+
+document.getElementById("title").innerText = "New Title";
+
+//✅ Styling
+
+document.querySelector("h1").style.color = "red";
+
+//✅ Changing Attributes
+
+document.querySelector("img").src = "image.png";
+

@@ -1,0 +1,39 @@
+// HTML Form Example
+
+<input id="email" type="email">
+<button id="btn">Submit</button>
+<p id="msg"></p>
+
+// JS Validation Example
+
+<script>
+
+document.getElementById("btn").addEventListener("click", () => {
+  let email = document.getElementById("email").value;
+  let msg = document.getElementById("msg");
+
+  if(email === ""){
+    msg.innerText = "Email required!";
+    msg.style.color = "red";
+  } else {
+    msg.innerText = "Valid!";
+    msg.style.color = "green";
+  }
+});
+
+
+</script>
+
+/*
+
+Validation Techniques:
+
+* Required fields
+
+* Email pattern check
+
+* Length checks
+
+* Number ranges
+
+*/

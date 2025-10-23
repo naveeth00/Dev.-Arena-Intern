@@ -1,0 +1,24 @@
+// localStorage stores data even after page reload.
+
+// Example: Save To-Do tasks
+
+let list = JSON.parse(localStorage.getItem("tasks")) || [];
+
+function save(){
+  localStorage.setItem("tasks", JSON.stringify(list));
+}
+
+
+
+// Add tasks to the array:
+
+list.push(task);
+save();
+
+// Retrieve on page load:
+
+window.onload = () => {
+  list.forEach(t => {
+    // display tasks here
+  });
+};
